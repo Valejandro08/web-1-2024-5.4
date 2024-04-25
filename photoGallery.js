@@ -7,9 +7,9 @@ let imageContainer= document.querySelector("#imageContainer");
 let imageUrls = ["corgi.webp","corso.jpg","golden.jpeg","Pit.jpg"];
 
 // 3. Selecting the imageUrls array, create a forEach loop.
-imageUrls.forEach(function(user){
+imageUrls.forEach(function(url){
 let image= document.createElement("img");
-image.src= "corgi.webp";
+image.src= url;
 imageContainer.appendChild(image);
 });
 
